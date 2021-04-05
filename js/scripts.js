@@ -1,8 +1,7 @@
 // business logic for ToDoList
 function ToDoList(){
   this.task = {};
-  
-
+  this.currentId = 0;
 }
 
 ToDoList.prototype.addTask = function(task){
